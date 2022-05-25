@@ -1,11 +1,11 @@
 const box = document.querySelector('.section-second');
-const boxElement = document.querySelectorAll('.box-change-element');
+const boxElement1 = document.querySelector('.box-change-element1');
+const boxElement2 = document.querySelector('.box-change-element2');
 const btn = document.querySelector('button');
 
 btn.addEventListener('click', () => {
-    console.log('klik');
-    boxElement[0].classList.toggle('hidden');
-    boxElement[1].classList.toggle('hidden');
+    boxElement1.classList.toggle('hidden');
+    boxElement2.classList.toggle('hidden');
     box.classList.toggle('bgc');
 });
 
