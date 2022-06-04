@@ -8,4 +8,3 @@ btn.addEventListener('click', () => {
     boxElement2.classList.toggle('hidden');
     box.classList.toggle('bgc');
 });
-
